@@ -40,7 +40,6 @@ public class Gradebook2D {
             quizSum += stuAverage;
             System.out.print("\nID " + id[i] + " - Final grade: ");
             System.out.printf("%.2f", stuAverage);
-
         }
 
         classAverage = quizSum/numStudents;
